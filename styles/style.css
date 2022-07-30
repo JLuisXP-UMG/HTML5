@@ -1,0 +1,165 @@
+body * {
+    box-sizing: border-box;
+    display: block list-item;
+    text-align: justify;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: linear-gradient(black, red, yellow);
+    border-top-left-radius: 65px;
+}
+
+header img {
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+
+header h1,
+header h2 {
+    text-align: center;
+}
+
+header nav {
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+header li {
+    display: inline-block;
+}
+
+header a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+header a:hover {
+    background-color: red;
+    color: yellow;
+}
+
+#customers {
+    display: list-item;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+main {
+    background-color: burlywood;
+    float: left;
+}
+
+main div {
+    padding: 10px;
+}
+
+main section {
+    background-color: coral;
+    float: left;
+    width: 75%;
+}
+
+main aside {
+    float: left;
+    width: 25%;
+}
+
+main h2,
+main h3 {
+    padding-bottom: 20px;
+}
+
+button {
+    background-color: midnightblue;
+    border-radius: 10px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+button:active {
+    background-color: red;
+}
+
+a:visited {
+    background-color: green;
+}
+
+aside ol {
+    list-style-type: square;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer h4 {
+    clear: both;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer li {
+    margin-left: 20px;
+}
+
+
+/* 
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+table th {
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+
+table td {
+    background-color: gray;
+    color: white;
+    padding: 5px;
+} */
+
+@media only screen and (min-width: 800px) {
+    article {
+        background-color: lightblue;
+    }
+}
